@@ -1,0 +1,76 @@
+:root {
+  --white:#ffffff;
+  --font-color1:#d3d3d3;
+  --font-color2:#ababab;
+  --bg-color-fullWidth:rgb(26, 25, 25);
+  --bg-color-content:rgb(39, 39, 39);
+  --bg-search-color: rgba(125, 125, 125, 0.39);
+  --size-10:0.625rem;
+  --size-12:0.75rem;
+  --size-14:0.875rem;
+  --size-16:1rem;
+  --size-18:1.125rem;
+  --size-20:1.25rem;
+  --size-22:1.375rem;
+  --size-24:1.5rem;
+  --size-26:1.625rem;
+  --size-28:1.75rem;
+  --size-30:1.875rem;
+  --size-35:2.1875rem;
+  --size-40:2.5rem;
+  --size-45:2.5rem;
+  --size-50:3.125rem;
+  --size-55:3.4375rem;
+  --size-60:3.75rem;
+  --size-70:4.375rem;
+  --size-80:5rem;
+  --size-90:5.625rem;
+  --size-100:6.25rem;
+  --size-120:7.5rem;
+  --size-150:9.375rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body { 
+  box-sizing: border-box;
+  background-color: var(--bg-color-fullWidth);
+}
+
+.container {
+  width: 680px;
+}
+
+.container section {
+  margin-bottom: var(--size-28);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+input:focus {
+  outline: none;
+}
+
+ul, li {
+  list-style: none;     
+}
+
+p { color: #ffffffe7}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.box-content {
+  background-color: var(--bg-color-content);
+  border-radius: 8px;
+  padding: var(--size-10);
+}
